@@ -4,7 +4,7 @@
 FROM openjdk:latest
 WORKDIR /usr/share
 # Make directory named bravo         
-RUN mkdir usr/share/bravo
+RUN mkdir bravo
 # Copying myfile1.txt to the containers /usr/share directory
 COPY ./java_lang/*.java /usr/share/bravo
 #
