@@ -7,4 +7,6 @@ WORKDIR /usr/share
 RUN mkdir bravo
 # Copying myfile1.txt to the containers /usr/share directory
 COPY ./java_lang/*.java /usr/share/bravo
+WORKDIR /usr/share/bravo
+RUN javac hello.java
 #
