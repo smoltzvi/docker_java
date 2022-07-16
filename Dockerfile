@@ -11,6 +11,4 @@ COPY ./java_lang/*.java /usr/share/bravo
 WORKDIR /usr/share/bravo
 # Compile java application
 RUN javac hello.java
-# Execute app
-CMD ["java", "hello"]
 #
